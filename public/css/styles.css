@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  
+  align-items: center;
+  padding-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 30px;
+  background-color: rgb(237, 233, 233);
+}
+
+.h3{
+    font-size: 20px;
+    color: rgb(79, 42, 42);
+}
+
+
+
+
+
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+     border-radius: 0;
+     margin-bottom: -1px;
+}
+
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.btn{
+  width: 100px;
+  color: rgb(232, 223, 223);
+  background-color: rgb(150, 87, 87);
+}
+
+
+.btn:hover{
+  color: rgb(229, 222, 222)
+}
+
+.mt-5{
+  font-size: x-small;
+}
